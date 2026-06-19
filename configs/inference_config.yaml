@@ -1,0 +1,10 @@
+inference:
+  temperature: 0.7
+  top_k: 50
+  top_p: 0.9
+  max_text_tokens: 150
+  complete_image: true
+  img_size: 256
+
+model_path: checkpoints/best
+device: auto                        # auto | cpu | mps | cuda

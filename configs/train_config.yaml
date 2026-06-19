@@ -1,0 +1,30 @@
+model:
+  n_layer: 12
+  n_head: 8
+  n_embd: 768
+  max_seq_len: 512
+  dropout: 0.1
+  bias: true
+
+vqvae:
+  in_channels: 3
+  base_channels: 128
+  latent_dim: 256
+  n_codes: 8192
+  n_res: 2
+  beta: 0.25
+
+data:
+  root: data/raw/quickdraw          # change to sketchy_coco for full training
+  img_size: 256
+  num_workers: 4                    # set to 0 on M5 if issues
+
+training:
+  batch_size: 8                     # 8 for M5, 32 for Kaggle T4
+  lr: 3.0e-4
+  weight_decay: 0.1
+  grad_accum: 4                     # effective batch = batch_size * grad_accum
+  max_epochs: 20
+  warmup_steps: 500
+  val_every: 500
+  log_every: 50
