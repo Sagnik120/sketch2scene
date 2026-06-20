@@ -6,7 +6,7 @@
 [![HuggingFace Spaces](https://img.shields.io/badge/🤗-Demo%20on%20Spaces-blue)](https://huggingface.co/spaces/Sagnik120/sketch2scene)
 [![GitHub](https://img.shields.io/badge/GitHub-Sagnik120-black)](https://github.com/Sagnik120/sketch2scene)
 
----
+--- 
 
 ## 🧠 What Makes This Novel
 
