@@ -1,4 +1,4 @@
-# 🖼️ SketchToScene
+# 🖼️ SketchToScene 
 
 > **A Multimodal Decoder-Only Transformer that converts hand-drawn sketches into realistic scene descriptions and completes missing image patches — autoregressively.**
 
